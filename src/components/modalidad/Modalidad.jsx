@@ -7,7 +7,7 @@ const Modalidad = () => {
   return (
     <div>
         <div className='text-center justify-items-center mx-auto mt-16 mb-10'>
-        <h1 className='text-3xl text-gray-600 font-bold mb-10'>Que Ofrecemos?</h1>
+        <h1 className='text-3xl text-sky-900 font-bold mb-10'>Que Ofrecemos?</h1>
         <div className='grid grid-cols-1 md:grid-cols-3 text-center mx-auto'>
         <div class="text center mx-auto w-80 p-4 bg-white rounded-lg shadow-md ">
             <img src={vivo} alt=''/>

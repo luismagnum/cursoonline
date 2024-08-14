@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/footer/Footer'
 import Hero from './components/hero/Hero'
 import Idiomas from './components/idiomas/Idiomas'
 import Modalidad from './components/modalidad/Modalidad'
@@ -18,6 +19,7 @@ function App() {
         <Modalidad />
         <Profe />
         <Planes />
+        <Footer />
       </main>
     </div>
   )

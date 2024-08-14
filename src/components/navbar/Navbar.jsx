@@ -27,9 +27,9 @@ const Navbar = () => {
                 <span>
                     <img src={usa} alt='' width={35}/>
                 </span>
-                <h1 className='text-xl font-bold ml-6'>KC</h1>
+                <h1 className='text-sky-900 text-xl font-bold ml-6'>KC</h1>
             </div>
-            <nav className='hidden md:flex flex-row items-center text-black text-xl ml-60 font-bold gap-6'>
+            <nav className='hidden md:flex flex-row items-center text-sky-900 text-xl ml-60 font-bold gap-6'>
                 <Link
                  to='home'
                  spy={true} 
@@ -80,7 +80,7 @@ const Navbar = () => {
                 )}
             </div>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-white text-black left-0 top-10 font-semibold text-2xl text-center pt-8 pb-6 gap-1 w-full h-60 transition-transform duration-300`}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-white text-sky-900 left-0 top-10 font-semibold text-2xl text-center pt-8 pb-6 gap-1 w-full h-60 transition-transform duration-300 z-50`}>
         <Link
                  to='home'
                  spy={true} 

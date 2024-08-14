@@ -4,7 +4,7 @@ import './Planes.css'
 const Planes = () => {
   return (
     <div className='mb-10 z-10'>
-      <h3 className='text-3xl text-gray-600 font-bold text-center mt-10 mb-10'>Planes</h3>
+      <h3 className='text-3xl text-sky-900 font-bold text-center mt-10 mb-10'>Planes</h3>
     <div className='flex justify-center'>
     <div className='grid grid-cols-1 md:grid-cols-4 md:gap-6'>
     <div class="plan">
