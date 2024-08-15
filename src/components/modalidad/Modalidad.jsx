@@ -13,21 +13,27 @@ const Modalidad = () => {
             <img src={vivo} alt=''/>
               <div class="p-4">
               <h2 class="text-xl  font-semibold">En vivo y en linea</h2>
-              <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante sit amet tellus ornare tincidunt.</p>
+              <p class="text-gray-600 text-justify">
+              Nuestras clases online en Zoom son lecciones en vivo de 60 minutos con profesores cualificados.
+              </p>
         </div>
     </div>
     <div class="text center mx-auto w-80 p-4 bg-white rounded-lg shadow-md ">
             <img src={online} alt=''/>
               <div class="p-4">
               <h2 class="text-xl  font-semibold">Practicas en vivo</h2>
-              <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante sit amet tellus ornare tincidunt.</p>
+              <p class="text-gray-600 text-justify">
+              Nuestras clases en grupos son de hasta 5, por lo que siempre dispondrás de tiempo para hablar.
+              </p>
         </div>
     </div>
     <div class="text center mx-auto w-80 h-96 p-4 bg-white rounded-lg shadow-md ">
             <img src={principi} alt=''/>
               <div class="p-4">
               <h2 class="text-xl  font-semibold">Principiante a avanzado</h2>
-              <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante sit amet tellus ornare tincidunt.</p>
+              <p class="text-gray-600 text-justify">
+              Con clases disponibles de A1 a C1, puedes elegir el nivel que mejor se adapte a tus necesidades.
+              </p>
         </div>
     </div>
     </div>
