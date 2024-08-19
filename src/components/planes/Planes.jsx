@@ -46,7 +46,7 @@ const Planes = () => {
 				</li>
 			</ul>
 			<div class="action">
-			<a class="button" href="#">
+			<a class="button" href="https://wa.me/543412143000?text=Hola quiero informacion" target="_blank">
                 Elejir plan
 			</a>
 			</div>
@@ -91,8 +91,8 @@ const Planes = () => {
 				</li>
 			</ul>
 			<div class="action">
-			<a class="button" href="#">
-                Elejir plan
+			<a class="button" href="https://wa.me/543412143000?text=Hola quiero informacion" target="_blank">
+				Elejir plan
 			</a>
 			</div>
 		</div>
@@ -136,7 +136,7 @@ const Planes = () => {
 				</li>
 			</ul>
 			<div class="action">
-			<a class="button" href="#">
+			<a class="button" href="https://wa.me/543412143000?text=Hola quiero informacion" target="_blank">
 				Elejir plan
 			</a>
 			</div>
@@ -181,7 +181,7 @@ const Planes = () => {
 				</li>
 			</ul>
 			<div class="action">
-			<a class="button" href="#">
+			<a class="button" href="https://wa.me/543412143000?text=Hola quiero informacion" target="_blank">
                 Elejir plan
 			</a>
 			</div>

@@ -2,19 +2,20 @@ import React from 'react'
 import { FaFacebook, FaInstagram, } from 'react-icons/fa'
 import { FaXTwitter } from "react-icons/fa6";
 import Boton from '../boton/Boton'
+import curso from '../../assets/curso.png'
 
 const section = [
     {
-        title:"Soluciones",
+        title:"Cursos Online",
         items:["cursos","ingles","portugues"]
     },
     {
-        title:"Soluciones",
-        items:["cursos","ingles","portugues"]
+        title:"Cursos Online",
+        items:["zoom","practicas","en vivo"]
     },
     {
-        title:"Soluciones",
-        items:["cursos","ingles","portugues"]
+        title:"Cursos Online",
+        items:["basico","intermedio","avanzado"]
     },
 ]
 
@@ -39,6 +40,9 @@ const items = [
 const Footer = () => {
   return (
     <div className='w-full mt-12 bg-slate-900 text-gray-300 py-y px-2'>
+        <span>
+            <img src={curso} alt='' width={100}  className='text-center p-4 mx-auto'/>
+        </span>
       <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-4'>
         {
             section.map((section,index)=>(
@@ -72,13 +76,18 @@ const Footer = () => {
                 @2024 Dev Luis E. Diaz.
             </p>
 
-            <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
+            <div className='flex justify-between sm:w-[300px] pt-4 text-2xl mb-10'>
                 {
                     items.map((x,index)=>{
                         return <x.icon key={index} className='hover:text-white cursor-pointer'/>
                 })
                 }
             </div>
+        </div>
+        <div className='flex items-center justify-center mx-auto'>
+            <button className='grid grid-cols-1'>
+              <a className='flex text-center text-slate-500 font-semibold text-xl hover:text-slate-200 mb-10' href='./'>HOME</a>
+            </button>
         </div>
     </div>
   )

@@ -15,11 +15,21 @@ function App() {
         <div id='home'>
         <Hero />
         </div>
+        <div id='idiomas'>
         <Idiomas />
-        <Modalidad />
-        <Profe />
-        <Planes />
-        <Footer />
+        </div>
+        <div id='modalidad'>
+          <Modalidad />
+        </div>
+        <div id='profe'>
+          <Profe />
+        </div>
+        <div id='planes'>
+          <Planes />
+        </div>
+        <div id='footer'>
+          <Footer />
+        </div>
       </main>
     </div>
   )

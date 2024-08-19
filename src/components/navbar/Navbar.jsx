@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import {Link} from "react-scroll";
 import { IoClose } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
-import logo from '../../assets/logo.png';
-import brasil from '../../assets/brasilflag.png'
-import usa from '../../assets/flagusa.png'
+import curso from '../../assets/curso.png';
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -22,10 +20,7 @@ const Navbar = () => {
         <div className='flex flex-row justify-between p-2 md:p-4 md:px-32 px-5 bg-transparent shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
-                    <img src={brasil} alt='' width={35}/>
-                </span>
-                <span>
-                    <img src={usa} alt='' width={35}/>
+                    <img src={curso} alt='' width={45}/>
                 </span>
                 <h1 className='text-sky-900 text-xl font-bold ml-6'>KC</h1>
             </div>
@@ -39,7 +34,7 @@ const Navbar = () => {
                  Home
                  </Link>
                 <Link 
-                 to='productos' 
+                 to='idiomas' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
@@ -47,7 +42,7 @@ const Navbar = () => {
                  Cursos
                  </Link>
                 <Link 
-                 to='about'
+                 to='modalidad'
                  spy={true} 
                  smooth={true} 
                  duration={500} 
@@ -55,7 +50,7 @@ const Navbar = () => {
                  Nosotros
                 </Link>
                 <Link 
-                 to='menu' 
+                 to='planes' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
@@ -63,7 +58,7 @@ const Navbar = () => {
                  Planes
                 </Link>
                 <Link 
-                 to='fotos' 
+                 to='footer' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
@@ -91,7 +86,7 @@ const Navbar = () => {
                  Home
                  </Link>
                  <Link 
-                 to='productos' 
+                 to='idiomas' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
@@ -100,7 +95,7 @@ const Navbar = () => {
                  Cursos
                  </Link>
                 <Link 
-                 to='about'
+                 to='modalidad'
                  spy={true} 
                  smooth={true} 
                  duration={500} 
@@ -109,7 +104,7 @@ const Navbar = () => {
                  Nosotros
                 </Link>
                 <Link 
-                 to='menu' 
+                 to='planes' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
@@ -118,7 +113,7 @@ const Navbar = () => {
                  Planes
                 </Link>
                 <Link 
-                 to='fotos' 
+                 to='footer' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
