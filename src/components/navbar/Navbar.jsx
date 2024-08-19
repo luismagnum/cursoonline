@@ -22,7 +22,7 @@ const Navbar = () => {
                 <span>
                     <img src={curso} alt='' width={45}/>
                 </span>
-                <h1 className='text-sky-900 text-xl font-bold ml-6'>KC</h1>
+                <h1 className='text-sky-900 text-xl font-bold ml-6'>ON LINE</h1>
             </div>
             <nav className='hidden md:flex flex-row items-center text-sky-900 text-xl ml-60 font-bold gap-6'>
                 <Link
